@@ -1,0 +1,3 @@
+2025-07-11 02:42:28,267 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'report_name': 'Item-wise Sales History', 'filters': '{"from_date":"2025-06-11","company":"HSD (Demo)","to_date":"2025-07-11"}', 'ignore_prepared_report': '1', 'cmd': 'frappe.desk.query_report.run'}

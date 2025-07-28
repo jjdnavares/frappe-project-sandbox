@@ -1,0 +1,648 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250711_033001-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-11 03:30:03.148390
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250711_033001-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250711_033001-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250711_033003-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-11 03:30:04.089408
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250711_033003-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250711_033003-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250711_060004-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-11 06:00:09.061829
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250711_060004-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250711_060004-erpnext_localhost-database.sql.gz 808.2KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250711_060009-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-11 06:00:10.668935
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250711_060009-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250711_060009-irfan_cabs-database.sql.gz 222.3KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./library.localhost/private/backups/20250710_233312-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250710_233312-library_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250711_060010-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-11 06:00:12.466164
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250711_060010-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250711_060010-library_localhost-database.sql.gz 226.3KiB
+Backup for Site library.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250711_060012-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-11 06:00:13.312550
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250711_060012-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250711_060012-seowriter_localhost-database.sql.gz 220.1KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250718_033002-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-18 03:30:03.701919
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250718_033002-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250718_033002-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250711_033003-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250711_033003-ecom_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250718_033003-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-18 03:30:04.526384
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250718_033003-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250718_033003-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250711_060004-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250711_060004-erpnext_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250718_060004-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-18 06:00:07.690734
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250718_060004-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250718_060004-erpnext_localhost-database.sql.gz 808.4KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250711_060009-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250711_060009-irfan_cabs-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250718_060007-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-18 06:00:08.627719
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250718_060007-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250718_060007-irfan_cabs-database.sql.gz 222.5KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./library.localhost/private/backups/20250711_060010-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20250711_060010-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250710_233312-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250710_233312-library_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250718_060008-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-18 06:00:09.619642
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250718_060008-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250718_060008-library_localhost-database.sql.gz 226.5KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250711_060012-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250711_060012-seowriter_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250718_060009-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-18 06:00:10.340873
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250718_060009-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250718_060009-seowriter_localhost-database.sql.gz 220.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250724_213002-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-24 21:30:04.042031
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250724_213002-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250724_213002-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250718_033003-ecom_localhost-database.sql.gz is older than 24 hours
+File ./ecom.localhost/private/backups/20250718_033003-ecom_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-24 21:30:04.955574
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250724_213004-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250724_213004-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250718_060004-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250718_060004-erpnext_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-25 00:00:07.679109
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250718_060007-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250718_060007-irfan_cabs-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-25 00:00:08.586268
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_000007-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_000007-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-25 00:00:09.253842
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_000008-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_000008-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250718_060008-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250718_060008-library_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250725_000009-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-25 00:00:10.129733
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_000009-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_000009-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250718_060009-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250718_060009-seowriter_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-25 00:00:11.017312
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250725_033002-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-25 03:30:02.672526
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_033002-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_033002-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-25 03:30:03.147321
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_033002-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_033002-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-25 06:00:04.569070
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-database.sql.gz is recent
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-25 06:00:05.093478
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_060004-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_060004-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-25 06:00:05.604054
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_060005-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_060005-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250725_000009-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_000009-library_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250725_060005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-25 06:00:06.141715
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_060005-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_060005-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-site_config_backup.json is recent
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-25 06:00:06.647656
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250725_093004-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-25 09:30:05.038141
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_093004-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_093004-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250725_093005-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-25 09:30:05.559980
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_093005-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_093005-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-database.sql.gz is recent
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-25 12:00:07.169734
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-database.sql.gz is recent
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250725_120007-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-25 12:00:07.728732
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_120007-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_120007-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-site_config_backup.json is recent
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250725_120007-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-25 12:00:08.308985
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_120007-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_120007-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250725_000009-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_060005-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_060005-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250725_000009-library_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250725_120008-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-25 12:00:08.862711
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_120008-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_120008-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-site_config_backup.json is recent
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-25 12:00:09.410988
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250725_153001-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-25 15:30:02.233249
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_153001-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_153001-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_093005-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_093005-ecom_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250725_153002-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-25 15:30:02.753761
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_153002-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_153002-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-database.sql.gz is recent
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-database.sql.gz is recent
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250725_180002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-25 18:00:04.294954
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_180002-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250725_180002-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-database.sql.gz is recent
+File ./irfan.cabs/private/backups/20250725_120007-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-database.sql.gz is recent
+File ./irfan.cabs/private/backups/20250725_120007-irfan_cabs-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250725_180004-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-25 18:00:04.822201
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_180004-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250725_180004-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./jumes.localhost/private/backups/20250725_120007-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_120007-jumes_localhost-site_config_backup.json is recent
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-site_config_backup.json is recent
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250725_180004-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-25 18:00:05.364900
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_180004-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250725_180004-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250725_000009-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_060005-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_120008-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250725_120008-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_060005-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250725_000009-library_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250725_180005-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-25 18:00:05.906196
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_180005-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250725_180005-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-site_config_backup.json is recent
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-site_config_backup.json is recent
+File ./seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250725_180005-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-25 18:00:06.491123
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_180005-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250725_180005-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250725_213002-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-25 21:30:04.161966
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_213002-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250725_213002-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_093005-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_153002-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_093005-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_153002-ecom_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250725_213004-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-25 21:30:05.106129
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_213004-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250725_213004-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_180002-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-database.sql.gz is recent
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_180002-erpnext_localhost-database.sql.gz is recent
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-database.sql.gz is recent
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250726_000005-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-26 00:00:08.179927
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250726_000005-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250726_000005-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-database.sql.gz is recent
+File ./irfan.cabs/private/backups/20250725_120007-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_180004-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-database.sql.gz is recent
+File ./irfan.cabs/private/backups/20250725_120007-irfan_cabs-database.sql.gz is recent
+File ./irfan.cabs/private/backups/20250725_180004-irfan_cabs-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250726_000008-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-26 00:00:09.288141
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250726_000008-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250726_000008-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./jumes.localhost/private/backups/20250725_120007-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_120007-jumes_localhost-site_config_backup.json is recent
+File ./jumes.localhost/private/backups/20250725_180004-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-database.sql.gz is older than 24 hours
+File ./jumes.localhost/private/backups/20250725_180004-jumes_localhost-site_config_backup.json is recent
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-site_config_backup.json is recent
+File ./jumes.localhost/private/backups/20250725_000008-jumes_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250726_000009-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-26 00:00:10.033363
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250726_000009-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250726_000009-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250725_000009-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_060005-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_120008-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250725_120008-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_180005-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20250725_180005-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250725_060005-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250725_000009-library_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250726_000010-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-26 00:00:11.020070
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250726_000010-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250726_000010-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-site_config_backup.json is older than 24 hours
+File ./seowriter.localhost/private/backups/20250725_000010-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250725_180005-seowriter_localhost-site_config_backup.json is recent
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-site_config_backup.json is recent
+File ./seowriter.localhost/private/backups/20250725_180005-seowriter_localhost-database.sql.gz is recent
+File ./seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250726_000011-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-26 00:00:12.215647
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250726_000011-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250726_000011-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250726_213003-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-26 21:30:04.944870
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250726_213003-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250726_213003-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-database.sql.gz is older than 24 hours
+File ./ecom.localhost/private/backups/20250725_213004-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_033002-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250725_093005-ecom_localhost-database.sql.gz is older than 24 hours
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-database.sql.gz is older than 24 hours
+File ./ecom.localhost/private/backups/20250725_213004-ecom_localhost-database.sql.gz is recent
+File ./ecom.localhost/private/backups/20250724_213004-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250725_153002-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250725_093005-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250725_153002-ecom_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250726_213005-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-26 21:30:06.225161
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250726_213005-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250726_213005-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250725_180002-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250725_120005-erpnext_localhost-database.sql.gz is older than 24 hours
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250726_000005-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250725_180002-erpnext_localhost-database.sql.gz is older than 24 hours
+File ./erpnext.localhost/private/backups/20250725_000005-erpnext_localhost-database.sql.gz is older than 24 hours
+File ./erpnext.localhost/private/backups/20250725_060003-erpnext_localhost-database.sql.gz is older than 24 hours
+File ./erpnext.localhost/private/backups/20250726_000005-erpnext_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250727_000006-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-27 00:00:10.292037
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250727_000006-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250727_000006-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-database.sql.gz is older than 24 hours
+File ./irfan.cabs/private/backups/20250726_000008-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250725_120007-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250725_000007-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250725_180004-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250725_060004-irfan_cabs-database.sql.gz is older than 24 hours
+File ./irfan.cabs/private/backups/20250725_120007-irfan_cabs-database.sql.gz is older than 24 hours
+File ./irfan.cabs/private/backups/20250725_180004-irfan_cabs-database.sql.gz is older than 24 hours
+File ./irfan.cabs/private/backups/20250726_000008-irfan_cabs-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250727_000010-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-27 00:00:11.696169
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250727_000010-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250727_000010-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./jumes.localhost/private/backups/20250726_000009-jumes_localhost-database.sql.gz is older than 24 hours
+File ./jumes.localhost/private/backups/20250725_120007-jumes_localhost-database.sql.gz is older than 24 hours
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-database.sql.gz is older than 24 hours
+File ./jumes.localhost/private/backups/20250725_120007-jumes_localhost-site_config_backup.json is older than 24 hours
+File ./jumes.localhost/private/backups/20250725_180004-jumes_localhost-database.sql.gz is older than 24 hours
+File ./jumes.localhost/private/backups/20250726_000009-jumes_localhost-site_config_backup.json is older than 24 hours
+File ./jumes.localhost/private/backups/20250725_180004-jumes_localhost-site_config_backup.json is older than 24 hours
+File ./jumes.localhost/private/backups/20250725_060005-jumes_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250727_000011-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-27 00:00:12.923674
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250727_000011-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250727_000011-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250725_000009-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20250725_060005-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20250725_120008-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250725_120008-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20250726_000010-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20250725_180005-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20250725_180005-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250725_060005-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250725_000009-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250726_000010-library_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250727_000013-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-27 00:00:14.361522
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250727_000013-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250727_000013-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250725_180005-seowriter_localhost-site_config_backup.json is older than 24 hours
+File ./seowriter.localhost/private/backups/20250726_000011-seowriter_localhost-site_config_backup.json is older than 24 hours
+File ./seowriter.localhost/private/backups/20250726_000011-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250725_060006-seowriter_localhost-site_config_backup.json is older than 24 hours
+File ./seowriter.localhost/private/backups/20250725_180005-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250725_120008-seowriter_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250727_000014-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-27 00:00:15.807383
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250727_000014-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250727_000014-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250727_033002-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-27 03:30:04.480639
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250727_033002-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250727_033002-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250725_213004-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250726_213005-ecom_localhost-site_config_backup.json is recent
+File ./ecom.localhost/private/backups/20250725_213004-ecom_localhost-database.sql.gz is older than 24 hours
+File ./ecom.localhost/private/backups/20250726_213005-ecom_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250727_033004-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-27 03:30:06.007164
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250727_033004-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250727_033004-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250727_000006-erpnext_localhost-database.sql.gz is recent
+File ./erpnext.localhost/private/backups/20250726_000005-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250727_000006-erpnext_localhost-site_config_backup.json is recent
+File ./erpnext.localhost/private/backups/20250726_000005-erpnext_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250727_060006-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-27 06:00:10.649209
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250727_060006-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250727_060006-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250727_000010-irfan_cabs-site_config_backup.json is recent
+File ./irfan.cabs/private/backups/20250727_000010-irfan_cabs-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250727_060010-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-27 06:00:12.113324
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250727_060010-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250727_060010-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./jumes.localhost/private/backups/20250727_000011-jumes_localhost-database.sql.gz is recent
+File ./jumes.localhost/private/backups/20250727_000011-jumes_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250727_060012-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-27 06:00:13.561792
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250727_060012-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250727_060012-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250727_000013-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20250727_000013-library_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250727_060013-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-27 06:00:15.359730
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250727_060013-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250727_060013-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250727_000014-seowriter_localhost-site_config_backup.json is recent
+File ./seowriter.localhost/private/backups/20250727_000014-seowriter_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250727_060015-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-27 06:00:16.745087
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250727_060015-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250727_060015-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_24d00b6c130dac17 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _24d00b6c130dac17 | /usr/bin/gzip >> ./builder.localhost/private/backups/20250728_213002-builder_localhost-database.sql.gz
+
+Backup Summary for builder.localhost at 2025-07-28 21:30:04.106685
+Config  : /home/jumes/bench-0/sites/builder.localhost/private/backups/20250728_213002-builder_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/builder.localhost/private/backups/20250728_213002-builder_localhost-database.sql.gz 293.6KiB
+Backup for Site builder.localhost has been successfully completed
+File ./ecom.localhost/private/backups/20250727_033004-ecom_localhost-database.sql.gz is older than 24 hours
+File ./ecom.localhost/private/backups/20250726_213005-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250727_033004-ecom_localhost-site_config_backup.json is older than 24 hours
+File ./ecom.localhost/private/backups/20250726_213005-ecom_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_e2a5ae2d52eae352 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _e2a5ae2d52eae352 | /usr/bin/gzip >> ./ecom.localhost/private/backups/20250728_213004-ecom_localhost-database.sql.gz
+
+Backup Summary for ecom.localhost at 2025-07-28 21:30:04.952930
+Config  : /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250728_213004-ecom_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/ecom.localhost/private/backups/20250728_213004-ecom_localhost-database.sql.gz 217.6KiB
+Backup for Site ecom.localhost has been successfully completed
+File ./erpnext.localhost/private/backups/20250727_060006-erpnext_localhost-site_config_backup.json is older than 24 hours
+File ./erpnext.localhost/private/backups/20250727_000006-erpnext_localhost-database.sql.gz is older than 24 hours
+File ./erpnext.localhost/private/backups/20250727_060006-erpnext_localhost-database.sql.gz is older than 24 hours
+File ./erpnext.localhost/private/backups/20250727_000006-erpnext_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_1391fed5a841aaf3 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _1391fed5a841aaf3 | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250729_000005-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-07-29 00:00:07.777864
+Config  : /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250729_000005-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/erpnext.localhost/private/backups/20250729_000005-erpnext_localhost-database.sql.gz 808.9KiB
+Backup for Site erpnext.localhost has been successfully completed
+File ./irfan.cabs/private/backups/20250727_060010-irfan_cabs-database.sql.gz is older than 24 hours
+File ./irfan.cabs/private/backups/20250727_000010-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250727_060010-irfan_cabs-site_config_backup.json is older than 24 hours
+File ./irfan.cabs/private/backups/20250727_000010-irfan_cabs-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac908013d72a24cd --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac908013d72a24cd | /usr/bin/gzip >> ./irfan.cabs/private/backups/20250729_000007-irfan_cabs-database.sql.gz
+
+Backup Summary for irfan.cabs at 2025-07-29 00:00:08.656318
+Config  : /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250729_000007-irfan_cabs-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/irfan.cabs/private/backups/20250729_000007-irfan_cabs-database.sql.gz 221.6KiB
+Backup for Site irfan.cabs has been successfully completed
+File ./jumes.localhost/private/backups/20250727_060012-jumes_localhost-database.sql.gz is older than 24 hours
+File ./jumes.localhost/private/backups/20250727_000011-jumes_localhost-database.sql.gz is older than 24 hours
+File ./jumes.localhost/private/backups/20250727_060012-jumes_localhost-site_config_backup.json is older than 24 hours
+File ./jumes.localhost/private/backups/20250727_000011-jumes_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_c661ff32fd68004c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _c661ff32fd68004c | /usr/bin/gzip >> ./jumes.localhost/private/backups/20250729_000008-jumes_localhost-database.sql.gz
+
+Backup Summary for jumes.localhost at 2025-07-29 00:00:09.514106
+Config  : /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250729_000008-jumes_localhost-site_config_backup.json 159.0B
+Database: /home/jumes/bench-0/sites/jumes.localhost/private/backups/20250729_000008-jumes_localhost-database.sql.gz 220.9KiB
+Backup for Site jumes.localhost has been successfully completed
+File ./library.localhost/private/backups/20250727_060013-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250727_060013-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20250727_000013-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20250727_000013-library_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_197891cbc2d8097a --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _197891cbc2d8097a | /usr/bin/gzip >> ./library.localhost/private/backups/20250729_000009-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2025-07-29 00:00:10.410994
+Config  : /home/jumes/bench-0/sites/library.localhost/private/backups/20250729_000009-library_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/library.localhost/private/backups/20250729_000009-library_localhost-database.sql.gz 225.7KiB
+Backup for Site library.localhost has been successfully completed
+File ./seowriter.localhost/private/backups/20250727_060015-seowriter_localhost-database.sql.gz is older than 24 hours
+File ./seowriter.localhost/private/backups/20250727_000014-seowriter_localhost-site_config_backup.json is older than 24 hours
+File ./seowriter.localhost/private/backups/20250727_060015-seowriter_localhost-site_config_backup.json is older than 24 hours
+File ./seowriter.localhost/private/backups/20250727_000014-seowriter_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_5dd18575baa69544 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5dd18575baa69544 | /usr/bin/gzip >> ./seowriter.localhost/private/backups/20250729_000010-seowriter_localhost-database.sql.gz
+
+Backup Summary for seowriter.localhost at 2025-07-29 00:00:11.365763
+Config  : /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250729_000010-seowriter_localhost-site_config_backup.json 127.0B
+Database: /home/jumes/bench-0/sites/seowriter.localhost/private/backups/20250729_000010-seowriter_localhost-database.sql.gz 221.3KiB
+Backup for Site seowriter.localhost has been successfully completed

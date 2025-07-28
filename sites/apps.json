@@ -1,0 +1,61 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "library_management": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "aba707f423829e8960043d3cdb1bb0c1af55f0b7",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "73c08c1ecdf1e3df752eb53fbc7107c6e6e7715a",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "16.0.0-dev"
+    },
+    "builder": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "2ee25ce661ec716ee4366db03c1f7829fc4f44c2",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "2.0.0-dev"
+    },
+    "star_ecom": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "15ac82703de8df782b6da3a68538536024fc7c2a",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "vue_todo": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "349db48bfec1454cf5ad505abc924d092fe18bed",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    }
+}

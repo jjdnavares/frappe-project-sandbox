@@ -1,0 +1,44 @@
+2025-07-11 02:42:28,267 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'report_name': 'Item-wise Sales History', 'filters': '{"from_date":"2025-06-11","company":"HSD (Demo)","to_date":"2025-07-11"}', 'ignore_prepared_report': '1', 'cmd': 'frappe.desk.query_report.run'}
+2025-07-11 03:03:36,920 ERROR frappe Failed to capture exception
+Site: builder.localhost
+Form Dict: {'cmd': 'frappe.integrations.frappe_providers.frappecloud_billing.current_site_info'}
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/env/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/utils/sentry.py", line 122, in capture_exception
+    scope.set_context("JSON Body", frappe.request.json)
+                                   ^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/utils/local.py", line 66, in __getattr__
+    return getattr(self._get_current_object(), name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/env/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 560, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/env/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/env/lib/python3.12/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2025-07-11 03:03:36,924 ERROR frappe New Exception collected in error log
+Site: builder.localhost
+Form Dict: {'cmd': 'frappe.integrations.frappe_providers.frappecloud_billing.current_site_info'}
+2025-07-18 07:45:17,171 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {'limit_page_length': 20}
