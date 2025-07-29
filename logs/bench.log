@@ -149,3 +149,92 @@
 2025-07-29 04:48:38,442 WARNING /home/jumes/.local/bin/bench new-app vue-todo executed with exit code 1
 2025-07-29 04:48:38,631 INFO A newer version of bench is available: 5.25.7 → 5.25.9
 2025-07-29 04:49:10,958 INFO /home/jumes/.local/bin/bench new-site todo.localhost
+2025-07-29 04:53:23,056 INFO /home/jumes/.local/bin/bench start
+2025-07-29 04:53:23,349 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 04:53:23,364 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 04:53:23,374 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 04:53:23,454 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 04:53:59,711 INFO /home/jumes/.local/bin/bench --site todo.localhost install-app vue_todo
+2025-07-29 04:54:28,221 INFO /home/jumes/.local/bin/bench start
+2025-07-29 04:54:28,437 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 04:54:28,449 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 04:54:28,449 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 04:54:28,455 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 04:55:37,830 INFO /home/jumes/.local/bin/bench --app build
+2025-07-29 04:55:56,684 INFO /home/jumes/.local/bin/bench build --app frappe
+2025-07-29 04:56:16,982 INFO /home/jumes/.local/bin/bench start
+2025-07-29 04:56:17,188 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 04:56:17,190 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 04:56:17,205 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 04:56:17,215 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 05:03:24,394 INFO /home/jumes/.local/bin/bench start
+2025-07-29 05:03:24,610 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 05:03:24,613 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 05:03:24,615 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 05:03:24,620 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 05:05:10,874 INFO /home/jumes/.local/bin/bench start
+2025-07-29 05:05:11,112 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 05:05:11,120 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 05:05:11,129 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 05:05:11,133 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 05:19:21,589 INFO /home/jumes/.local/bin/bench startclear
+2025-07-29 05:19:29,484 INFO /home/jumes/.local/bin/bench start
+2025-07-29 05:19:29,714 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 05:19:29,727 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 05:19:29,741 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 05:19:29,746 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 05:49:38,498 INFO /home/jumes/.local/bin/bench new-app vue_todo
+2025-07-29 05:49:38,507 LOG creating new app vue_todo
+2025-07-29 05:50:08,929 LOG Installing vue_todo
+2025-07-29 05:50:08,930 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/vue_todo 
+2025-07-29 05:50:10,587 DEBUG bench build --app vue_todo
+2025-07-29 05:50:10,692 INFO /home/jumes/.local/bin/bench build --app vue_todo
+2025-07-29 05:50:13,438 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 05:51:57,933 INFO /home/jumes/.local/bin/bench
+2025-07-29 05:52:25,973 INFO /home/jumes/.local/bin/bench --site todo.localhost uninstall-app vue_todo
+2025-07-29 05:52:44,402 INFO /home/jumes/.local/bin/bench start
+2025-07-29 05:52:44,620 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 05:52:44,627 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 05:52:44,627 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 05:52:44,669 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 05:52:49,283 INFO /home/jumes/.local/bin/bench --site todo.localhost uninstall-app vue_todo
+2025-07-29 05:52:59,101 INFO /home/jumes/.local/bin/bench
+2025-07-29 05:53:39,645 INFO /home/jumes/.local/bin/bench remove-app vue_todo
+2025-07-29 05:53:39,761 INFO /home/jumes/.local/bin/bench --site all list-apps --format json
+2025-07-29 05:53:41,480 INFO /home/jumes/.local/bin/bench --site jumes.localhost list-apps
+2025-07-29 05:53:42,236 INFO /home/jumes/.local/bin/bench --site irfan.cabs list-apps
+2025-07-29 05:53:43,022 INFO /home/jumes/.local/bin/bench --site erpnext.localhost list-apps
+2025-07-29 05:53:43,786 INFO /home/jumes/.local/bin/bench --site seowriter.localhost list-apps
+2025-07-29 05:53:44,493 INFO /home/jumes/.local/bin/bench --site builder.localhost list-apps
+2025-07-29 05:53:45,246 INFO /home/jumes/.local/bin/bench --site library.localhost list-apps
+2025-07-29 05:53:45,979 INFO /home/jumes/.local/bin/bench --site ecom.localhost list-apps
+2025-07-29 05:53:46,699 INFO /home/jumes/.local/bin/bench --site todo.localhost list-apps
+2025-07-29 05:53:47,348 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip uninstall -y vue_todo
+2025-07-29 05:53:48,619 INFO App moved from apps/vue_todo to archived/apps/vue_todo-2025-07-29
+2025-07-29 05:53:48,830 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 06:00:01,531 INFO /home/jumes/.local/bin/bench --verbose --site all backup
+2025-07-29 23:57:30,726 INFO /home/jumes/.local/bin/bench start
+2025-07-29 23:57:30,998 INFO /home/jumes/.local/bin/bench schedule
+2025-07-29 23:57:31,003 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-29 23:57:31,004 INFO /home/jumes/.local/bin/bench worker
+2025-07-29 23:57:31,023 INFO /home/jumes/.local/bin/bench watch
+2025-07-29 23:58:08,420 INFO /home/jumes/.local/bin/bench new-app vue_todo
+2025-07-29 23:58:08,425 LOG creating new app vue_todo
+2025-07-29 23:58:44,074 LOG Installing vue_todo
+2025-07-29 23:58:44,075 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/vue_todo 
+2025-07-29 23:58:45,993 DEBUG bench build --app vue_todo
+2025-07-29 23:58:46,147 INFO /home/jumes/.local/bin/bench build --app vue_todo
+2025-07-29 23:58:49,453 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-07-29 23:59:34,079 INFO /home/jumes/.local/bin/bench --site todo.localhost install-app vue_todo
+2025-07-30 00:00:01,541 INFO /home/jumes/.local/bin/bench --verbose --site all backup
+2025-07-30 00:01:44,256 INFO /home/jumes/.local/bin/bench start
+2025-07-30 00:01:44,453 INFO /home/jumes/.local/bin/bench watch
+2025-07-30 00:01:44,453 INFO /home/jumes/.local/bin/bench worker
+2025-07-30 00:01:44,457 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-30 00:01:44,464 INFO /home/jumes/.local/bin/bench schedule
+2025-07-30 02:15:07,858 INFO /home/jumes/.local/bin/bench start
+2025-07-30 02:15:08,195 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-30 02:15:08,212 INFO /home/jumes/.local/bin/bench schedule
+2025-07-30 02:15:08,216 INFO /home/jumes/.local/bin/bench watch
+2025-07-30 02:15:08,217 INFO /home/jumes/.local/bin/bench worker
+2025-07-30 02:19:35,884 INFO /home/jumes/.local/bin/bench build --app vue_todo

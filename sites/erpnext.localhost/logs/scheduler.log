@@ -1,0 +1,8 @@
+2025-07-29 18:23:55,363 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for erpnext.localhost
+2025-07-29 18:23:55,365 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for erpnext.localhost
+2025-07-29 18:23:55,366 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for erpnext.localhost
+2025-07-29 18:23:55,367 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for erpnext.localhost
+2025-07-29 18:23:55,368 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for erpnext.localhost
+2025-07-29 18:23:55,369 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for erpnext.localhost
+2025-07-29 18:23:55,370 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for erpnext.localhost
+2025-07-29 18:23:55,371 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for erpnext.localhost

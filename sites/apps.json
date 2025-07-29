@@ -51,7 +51,7 @@
     "vue_todo": {
         "is_repo": true,
         "resolution": {
-            "commit_hash": "349db48bfec1454cf5ad505abc924d092fe18bed",
+            "commit_hash": "227f4ea0e5450b6d9baac942a9e55d363cb15f96",
             "branch": "develop"
         },
         "required": [],
