@@ -1,3 +1,9 @@
 2025-07-30 00:13:56,231 ERROR frappe New Exception collected in error log
 Site: todo.localhost
 Form Dict: {'cmd': 'get-office'}
+2025-07-30 02:30:56,161 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'cmd': 'get-office'}
+2025-07-30 02:35:01,099 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'cmd': 'get-office'}

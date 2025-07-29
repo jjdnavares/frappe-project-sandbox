@@ -238,3 +238,8 @@
 2025-07-30 02:15:08,216 INFO /home/jumes/.local/bin/bench watch
 2025-07-30 02:15:08,217 INFO /home/jumes/.local/bin/bench worker
 2025-07-30 02:19:35,884 INFO /home/jumes/.local/bin/bench build --app vue_todo
+2025-07-30 02:30:49,778 INFO /home/jumes/.local/bin/bench start
+2025-07-30 02:30:50,033 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-07-30 02:30:50,035 INFO /home/jumes/.local/bin/bench schedule
+2025-07-30 02:30:50,042 INFO /home/jumes/.local/bin/bench watch
+2025-07-30 02:30:50,049 INFO /home/jumes/.local/bin/bench worker
