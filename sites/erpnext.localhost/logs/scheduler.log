@@ -6,3 +6,10 @@
 2025-07-29 18:23:55,369 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for erpnext.localhost
 2025-07-29 18:23:55,370 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for erpnext.localhost
 2025-07-29 18:23:55,371 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for erpnext.localhost
+2025-07-30 03:04:02,109 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for erpnext.localhost
+2025-07-30 03:08:00,277 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for erpnext.localhost
+2025-07-30 06:56:00,711 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for erpnext.localhost
+2025-07-30 06:56:00,714 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for erpnext.localhost
+2025-07-30 06:56:00,715 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for erpnext.localhost
+2025-07-30 06:56:00,719 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for erpnext.localhost
+2025-07-30 06:56:00,720 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for erpnext.localhost

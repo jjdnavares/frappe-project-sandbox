@@ -1,0 +1,5 @@
+2025-07-30 06:56:00,758 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for library.localhost
+2025-07-30 06:56:00,759 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for library.localhost
+2025-07-30 06:56:00,760 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for library.localhost
+2025-07-30 06:56:00,761 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for library.localhost
+2025-07-30 06:56:00,762 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for library.localhost

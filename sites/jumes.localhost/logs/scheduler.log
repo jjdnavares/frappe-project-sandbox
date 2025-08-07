@@ -9,3 +9,8 @@
 2025-07-29 18:24:00,456 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for jumes.localhost
 2025-07-29 18:24:00,457 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for jumes.localhost
 2025-07-29 18:24:00,459 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for jumes.localhost
+2025-07-30 06:56:00,724 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for jumes.localhost
+2025-07-30 06:56:00,726 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for jumes.localhost
+2025-07-30 06:56:00,727 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for jumes.localhost
+2025-07-30 06:56:00,728 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for jumes.localhost
+2025-07-30 06:56:00,729 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for jumes.localhost

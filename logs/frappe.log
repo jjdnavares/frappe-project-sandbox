@@ -51,3 +51,328 @@ Form Dict: {'cmd': 'get-office'}
 2025-07-30 02:35:01,099 ERROR frappe New Exception collected in error log
 Site: todo.localhost
 Form Dict: {'cmd': 'get-office'}
+2025-07-30 03:04:06,611 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:03:56","route":"Workspaces/Build"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:05:02,299 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:04:45","route":"Workspaces/Build"},{"creation":"2025-07-30 03:04:52","route":"List/ToDo/List"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:05:28,519 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:05:18","route":"List/ToDo/List"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:05:47,982 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'text': 'method', 'start': '0', 'limit': '100', 'doctype': '', 'cmd': 'frappe.utils.global_search.search'}
+2025-07-30 03:14:52,618 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'page': '{"name":"Build","title":"Build","public":1}', 'cmd': 'frappe.desk.desktop.get_desktop_page'}
+2025-07-30 03:15:02,520 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:14:52","route":"Workspaces/Build"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:30:42,344 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:30:31","route":"Workspaces/Build"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:39:29,063 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'doctype': 'User', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 04:27:58,482 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'usr': 'Administrator', 'pwd': '********'}
+2025-07-30 04:28:04,967 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'usr': 'Administrator', 'pwd': '********'}
+2025-07-30 04:29:26,149 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-07-30 04:30:03,933 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-07-30 04:54:45,105 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-30 05:04:44,238 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-30 05:40:55,056 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {}
+2025-07-30 05:42:14,079 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {}
+2025-07-30 05:45:20,073 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-30 05:45:59,879 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-31 03:59:21,418 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'doc': {'doctype': 'ToDo', 'description': ''}, 'cmd': 'frappe.client.insert'}
+2025-08-05 04:06:01,647 ERROR frappe Unable to load translations
+Site: ecom.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 102, in application
+    init_request(request)
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 178, in init_request
+    frappe.init(site, sites_path=_sites_path, force=True)
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 275, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1394, in setup_module_map
+    for module in get_module_list(app):
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1235, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 174, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/utils/redis_wrapper.py", line 253, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 162, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 190, in get_translations_from_apps
+    translations.update(get_translations_from_csv(lang, app) or {})
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 202, in get_translations_from_csv
+    os.path.join(frappe.get_app_path(app, "translations"), lang + ".csv"), lang, app
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'
+2025-08-05 04:06:01,654 ERROR frappe Unable to load translations
+Site: ecom.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 102, in application
+    init_request(request)
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 178, in init_request
+    frappe.init(site, sites_path=_sites_path, force=True)
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 275, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1394, in setup_module_map
+    for module in get_module_list(app):
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1235, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 174, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/utils/redis_wrapper.py", line 253, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 162, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 190, in get_translations_from_apps
+    translations.update(get_translations_from_csv(lang, app) or {})
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 202, in get_translations_from_csv
+    os.path.join(frappe.get_app_path(app, "translations"), lang + ".csv"), lang, app
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'
+2025-08-05 04:07:11,705 ERROR frappe Unable to load translations
+Site: ecom.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 102, in application
+    init_request(request)
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 178, in init_request
+    frappe.init(site, sites_path=_sites_path, force=True)
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 275, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1394, in setup_module_map
+    for module in get_module_list(app):
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1235, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 174, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/utils/redis_wrapper.py", line 253, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 162, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 190, in get_translations_from_apps
+    translations.update(get_translations_from_csv(lang, app) or {})
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 202, in get_translations_from_csv
+    os.path.join(frappe.get_app_path(app, "translations"), lang + ".csv"), lang, app
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'
+2025-08-05 04:07:11,707 ERROR frappe Unable to load translations
+Site: ecom.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 102, in application
+    init_request(request)
+  File "/home/jumes/bench-0/apps/frappe/frappe/app.py", line 178, in init_request
+    frappe.init(site, sites_path=_sites_path, force=True)
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 275, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1394, in setup_module_map
+    for module in get_module_list(app):
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1235, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 174, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/utils/redis_wrapper.py", line 253, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 162, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 190, in get_translations_from_apps
+    translations.update(get_translations_from_csv(lang, app) or {})
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/translate.py", line 202, in get_translations_from_csv
+    os.path.join(frappe.get_app_path(app, "translations"), lang + ".csv"), lang, app
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1200, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1230, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jumes/bench-0/apps/frappe/frappe/__init__.py", line 1171, in get_module
+    return importlib.import_module(modulename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'star_ecom'

@@ -14,3 +14,7 @@
 2025-07-29 18:24:00,413 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for irfan.cabs
 2025-07-29 18:24:00,421 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for irfan.cabs
 2025-07-29 18:24:00,422 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for irfan.cabs
+2025-07-30 06:56:00,739 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for irfan.cabs
+2025-07-30 06:56:00,740 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for irfan.cabs
+2025-07-30 06:56:00,741 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for irfan.cabs
+2025-07-30 06:56:00,743 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for irfan.cabs

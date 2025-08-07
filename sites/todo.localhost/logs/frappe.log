@@ -7,3 +7,60 @@ Form Dict: {'cmd': 'get-office'}
 2025-07-30 02:35:01,099 ERROR frappe New Exception collected in error log
 Site: todo.localhost
 Form Dict: {'cmd': 'get-office'}
+2025-07-30 03:04:06,611 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:03:56","route":"Workspaces/Build"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:05:02,299 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:04:45","route":"Workspaces/Build"},{"creation":"2025-07-30 03:04:52","route":"List/ToDo/List"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:05:28,519 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:05:18","route":"List/ToDo/List"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:05:47,982 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'text': 'method', 'start': '0', 'limit': '100', 'doctype': '', 'cmd': 'frappe.utils.global_search.search'}
+2025-07-30 03:14:52,618 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'page': '{"name":"Build","title":"Build","public":1}', 'cmd': 'frappe.desk.desktop.get_desktop_page'}
+2025-07-30 03:15:02,520 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:14:52","route":"Workspaces/Build"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:30:42,344 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'routes': '[{"creation":"2025-07-30 03:30:31","route":"Workspaces/Build"}]', 'cmd': 'frappe.desk.doctype.route_history.route_history.deferred_insert'}
+2025-07-30 03:39:29,063 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'doctype': 'User', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-07-30 04:27:58,482 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'usr': 'Administrator', 'pwd': '********'}
+2025-07-30 04:28:04,967 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'usr': 'Administrator', 'pwd': '********'}
+2025-07-30 04:29:26,149 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-07-30 04:30:03,933 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'cmd': 'frappe.auth.get_logged_user'}
+2025-07-30 04:54:45,105 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-30 05:04:44,238 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-30 05:40:55,056 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {}
+2025-07-30 05:42:14,079 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {}
+2025-07-30 05:45:20,073 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-30 05:45:59,879 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'limit_page_length': 20}
+2025-07-31 03:59:21,418 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {'doc': {'doctype': 'ToDo', 'description': ''}, 'cmd': 'frappe.client.insert'}

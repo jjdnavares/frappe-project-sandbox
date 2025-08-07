@@ -1,6 +1,10 @@
 frappe
+hsd_seo
+ecom
 builder
 erpnext
-star_ecom
+hsd_crm
+hsd_ecom
 vue_todo
+doppio
 library_management

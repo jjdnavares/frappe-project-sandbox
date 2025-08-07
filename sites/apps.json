@@ -38,16 +38,6 @@
         "idx": 4,
         "version": "2.0.0-dev"
     },
-    "star_ecom": {
-        "is_repo": true,
-        "resolution": {
-            "commit_hash": "15ac82703de8df782b6da3a68538536024fc7c2a",
-            "branch": "develop"
-        },
-        "required": [],
-        "idx": 5,
-        "version": "0.0.1"
-    },
     "vue_todo": {
         "is_repo": true,
         "resolution": {
@@ -56,6 +46,56 @@
         },
         "required": [],
         "idx": 6,
+        "version": "0.0.1"
+    },
+    "hsd_crm": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "dee905b454b68400dae527f5bf98fce8bf5ca514",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 7,
+        "version": "0.0.1"
+    },
+    "hsd_ecom": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "71a764c03f356d55bb1e87417cd6ec5bd4fdd1f1",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 8,
+        "version": "0.0.1"
+    },
+    "hsd_seo": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "bd1a0a458f4dca07580ee7246a19afb4099afd19",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 9,
+        "version": "0.0.1"
+    },
+    "doppio": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "659410848e984aa12e933c068c95618b2207b2a6",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 10,
+        "version": "0.0.1"
+    },
+    "ecom": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "8ea3072789c36eba7b0c83553aa59a8125a6300d",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 10,
         "version": "0.0.1"
     }
 }
