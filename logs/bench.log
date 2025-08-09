@@ -540,3 +540,307 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2025-08-08 04:09:38,359 INFO /home/jumes/.local/bin/bench watch
 2025-08-08 04:09:38,360 INFO /home/jumes/.local/bin/bench worker
 2025-08-08 04:09:38,361 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:15:11,395 INFO /home/jumes/.local/bin/bench start
+2025-08-08 04:15:11,600 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:15:11,608 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 04:15:11,615 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 04:15:11,618 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 04:15:35,160 INFO /home/jumes/.local/bin/bench new-app star_ecom
+2025-08-08 04:15:35,164 LOG creating new app star_ecom
+2025-08-08 04:16:03,043 LOG Installing star_ecom
+2025-08-08 04:16:03,044 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/star_ecom 
+2025-08-08 04:16:04,295 DEBUG bench build --app star_ecom
+2025-08-08 04:16:04,391 INFO /home/jumes/.local/bin/bench build --app star_ecom
+2025-08-08 04:16:05,926 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-08-08 04:16:16,293 INFO /home/jumes/.local/bin/bench new-site ecom.localhost
+2025-08-08 04:17:11,655 INFO /home/jumes/.local/bin/bench --site ecom.localhost install-app star_ecom
+2025-08-08 04:17:24,996 INFO /home/jumes/.local/bin/bench --site ecom.localhost add-to-hosts
+2025-08-08 04:17:41,225 INFO /home/jumes/.local/bin/bench start
+2025-08-08 04:17:41,406 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:17:41,408 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 04:17:41,409 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 04:17:41,422 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 04:19:51,278 INFO /home/jumes/.local/bin/bench start
+2025-08-08 04:19:51,477 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 04:19:51,478 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:19:51,484 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 04:19:51,505 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 04:23:02,091 INFO /home/jumes/.local/bin/bench version
+2025-08-08 04:23:07,969 INFO /home/jumes/.local/bin/bench --version
+2025-08-08 04:23:17,603 INFO /home/jumes/.local/bin/bench start
+2025-08-08 04:23:17,778 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 04:23:17,784 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 04:23:17,786 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:23:17,808 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 04:24:39,086 INFO /home/jumes/.local/bin/bench --version
+2025-08-08 04:25:35,061 INFO /home/jumes/.local/bin/bench get-app https://github.com/NagariaHussain/doppio
+2025-08-08 04:25:37,080 INFO App moved from apps/doppio to archived/apps/doppio-2025-08-08
+2025-08-08 04:25:37,084 LOG Getting doppio
+2025-08-08 04:25:37,084 DEBUG cd ./apps && git clone https://github.com/NagariaHussain/doppio  --depth 1 --origin upstream
+2025-08-08 04:25:38,402 LOG Installing doppio
+2025-08-08 04:25:38,402 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/doppio 
+2025-08-08 04:25:40,531 DEBUG cd /home/jumes/bench-0/apps/doppio && yarn install --check-files
+2025-08-08 04:25:41,684 DEBUG bench build --app doppio
+2025-08-08 04:25:41,778 INFO /home/jumes/.local/bin/bench build --app doppio
+2025-08-08 04:25:43,606 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-08-08 04:31:43,594 INFO /home/jumes/.local/bin/bench start
+2025-08-08 04:31:43,903 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 04:31:43,911 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 04:31:43,916 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:31:44,015 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 04:35:53,433 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench --version
+2025-08-08 04:35:59,085 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench start
+2025-08-08 04:35:59,275 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench watch
+2025-08-08 04:35:59,283 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench serve --port 8000
+2025-08-08 04:35:59,290 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench schedule
+2025-08-08 04:35:59,293 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench worker
+2025-08-08 04:41:42,391 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench start
+2025-08-08 04:41:42,586 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench schedule
+2025-08-08 04:41:42,594 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench watch
+2025-08-08 04:41:42,611 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench serve --port 8000
+2025-08-08 04:41:42,614 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench worker
+2025-08-08 04:43:57,055 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench start
+2025-08-08 04:43:57,238 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench schedule
+2025-08-08 04:43:57,240 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench serve --port 8000
+2025-08-08 04:43:57,243 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench worker
+2025-08-08 04:43:57,251 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench watch
+2025-08-08 04:45:41,701 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench --help
+2025-08-08 04:46:12,404 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench console
+2025-08-08 04:46:33,101 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench console --site ecom.localhost
+2025-08-08 04:46:42,697 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench console --help
+2025-08-08 04:46:57,969 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench console --autoreload
+2025-08-08 04:47:12,839 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench --site ecom.localhost console
+2025-08-08 04:47:32,091 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench start
+2025-08-08 04:47:32,280 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench watch
+2025-08-08 04:47:32,280 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench serve --port 8000
+2025-08-08 04:47:32,286 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench worker
+2025-08-08 04:47:32,340 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench schedule
+2025-08-08 04:48:17,410 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench clear-cache
+2025-08-08 04:48:58,901 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench clear-cache
+2025-08-08 04:49:55,456 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench console --autoreload
+2025-08-08 04:50:10,459 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench console --autoreload
+2025-08-08 04:50:19,010 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench console
+2025-08-08 04:50:29,159 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench --site ecom.localhost console
+2025-08-08 04:52:18,913 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench start
+2025-08-08 04:52:19,098 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench serve --port 8000
+2025-08-08 04:52:19,099 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench watch
+2025-08-08 04:52:19,099 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench schedule
+2025-08-08 04:52:19,116 INFO /home/jumes/.cache/uv/archive-v0/s8o-g-EgwKmhltfKuaotJ/bin/bench worker
+2025-08-08 04:54:52,413 INFO /home/jumes/.local/bin/bench start
+2025-08-08 04:54:52,877 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 04:54:53,098 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 04:54:53,126 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:54:53,261 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 04:55:10,135 INFO /home/jumes/.local/bin/bench --help
+2025-08-08 04:56:19,279 INFO /home/jumes/.local/bin/bench clear-cache
+2025-08-08 04:58:03,881 INFO /home/jumes/.local/bin/bench update
+2025-08-08 04:58:05,355 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-08-08 04:58:35,223 WARNING /home/jumes/.local/bin/bench update executed with exit code 1
+2025-08-08 04:58:35,441 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-08-08 04:58:56,734 INFO /home/jumes/.local/bin/bench start
+2025-08-08 04:58:56,956 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 04:58:56,958 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 04:58:56,973 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 04:58:57,012 INFO /home/jumes/.local/bin/bench watch
+                                                                                                                                                                                                                                                                                                                                                2025-08-08 11:16:20,774 INFO /home/jumes/.local/bin/bench start
+2025-08-08 11:16:21,021 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 11:16:21,031 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 11:16:21,032 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 11:16:21,075 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 11:16:37,492 INFO /home/jumes/.local/bin/bench restart
+2025-08-08 11:16:37,738 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-08-08 11:16:56,828 INFO /home/jumes/.local/bin/bench start
+2025-08-08 11:16:56,998 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 11:16:57,000 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 11:16:57,019 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 11:16:57,034 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 11:17:10,488 INFO /home/jumes/.local/bin/bench clear-cache
+2025-08-08 11:17:17,271 INFO /home/jumes/.local/bin/bench clear-cache --help
+2025-08-08 11:17:47,061 INFO /home/jumes/.local/bin/bench clear-cache
+2025-08-08 11:17:58,959 INFO /home/jumes/.local/bin/bench clear-cache frappe
+2025-08-08 11:18:07,408 INFO /home/jumes/.local/bin/bench clear-cache
+2025-08-08 21:33:31,519 INFO /home/jumes/.local/bin/bench start
+2025-08-08 21:33:31,818 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 21:33:31,887 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 21:33:31,913 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 21:33:32,026 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 21:36:28,077 INFO /home/jumes/.local/bin/bench start
+2025-08-08 21:36:28,285 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 21:36:28,290 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 21:36:28,290 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 21:36:28,290 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 21:40:58,904 INFO /home/jumes/.local/bin/bench start
+2025-08-08 21:40:59,096 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 21:40:59,096 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 21:40:59,115 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 21:40:59,162 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 21:41:05,505 INFO /home/jumes/.local/bin/bench start
+2025-08-08 21:41:05,672 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 21:41:05,672 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 21:41:05,673 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 21:41:05,712 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 21:48:49,251 INFO /home/jumes/.local/bin/bench start
+2025-08-08 21:48:49,426 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 21:48:49,427 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 21:48:49,432 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 21:48:49,469 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 21:52:31,789 INFO /home/jumes/.local/bin/bench get-app https://github.com/yrestom/Console.git
+2025-08-08 21:52:31,798 LOG Getting Console
+2025-08-08 21:52:31,799 DEBUG cd ./apps && git clone https://github.com/yrestom/Console.git  --depth 1 --origin upstream
+2025-08-08 21:52:33,036 LOG Installing console
+2025-08-08 21:52:33,036 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/console 
+2025-08-08 21:52:34,658 WARNING cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/console  executed with exit code 1
+2025-08-08 21:52:34,658 WARNING /home/jumes/.local/bin/bench get-app https://github.com/yrestom/Console.git executed with exit code 1
+2025-08-08 21:52:35,070 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-08-08 21:53:10,990 INFO /home/jumes/.local/bin/bench build --app console
+2025-08-08 21:53:33,955 INFO /home/jumes/.local/bin/bench --help
+2025-08-08 21:53:57,611 INFO /home/jumes/.local/bin/bench --remove-app console
+2025-08-08 21:54:06,686 INFO /home/jumes/.local/bin/bench remove-app console
+2025-08-08 21:54:06,780 INFO /home/jumes/.local/bin/bench --site all list-apps --format json
+2025-08-08 21:54:08,501 INFO /home/jumes/.local/bin/bench --site jumes.localhost list-apps
+2025-08-08 21:54:09,153 INFO /home/jumes/.local/bin/bench --site irfan.cabs list-apps
+2025-08-08 21:54:09,873 INFO /home/jumes/.local/bin/bench --site erpnext.localhost list-apps
+2025-08-08 21:54:10,608 INFO /home/jumes/.local/bin/bench --site ecomsite.localhost list-apps
+2025-08-08 21:54:11,251 INFO /home/jumes/.local/bin/bench --site seowriter.localhost list-apps
+2025-08-08 21:54:11,927 INFO /home/jumes/.local/bin/bench --site hsdecom.localhost list-apps
+2025-08-08 21:54:12,541 INFO /home/jumes/.local/bin/bench --site hsdcrm.localhost list-apps
+2025-08-08 21:54:13,159 INFO /home/jumes/.local/bin/bench --site hsdseo.localhost list-apps
+2025-08-08 21:54:13,791 INFO /home/jumes/.local/bin/bench --site builder.localhost list-apps
+2025-08-08 21:54:14,459 INFO /home/jumes/.local/bin/bench --site library.localhost list-apps
+2025-08-08 21:54:15,049 INFO /home/jumes/.local/bin/bench --site ecom.localhost list-apps
+2025-08-08 21:54:15,751 INFO /home/jumes/.local/bin/bench --site todo.localhost list-apps
+2025-08-08 21:54:16,342 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip uninstall -y console
+2025-08-08 21:54:16,676 INFO App moved from apps/console to archived/apps/console-2025-08-08
+2025-08-08 21:54:16,853 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-08-08 21:54:35,974 INFO /home/jumes/.local/bin/bench start
+2025-08-08 21:54:36,162 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 21:54:36,166 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 21:54:36,171 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 21:54:36,184 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 21:56:20,069 INFO /home/jumes/.local/bin/bench --site all clear-cache
+2025-08-08 21:57:14,876 INFO /home/jumes/.local/bin/bench update --reset
+2025-08-08 21:57:38,121 LOG pulling frappe
+2025-08-08 21:57:38,121 DEBUG cd /home/jumes/bench-0/apps/frappe && git fetch --depth=1 --no-tags upstream develop
+2025-08-08 21:57:39,391 DEBUG cd /home/jumes/bench-0/apps/frappe && git reset --hard upstream/develop
+2025-08-08 21:57:39,439 DEBUG cd /home/jumes/bench-0/apps/frappe && git reflog expire --all
+2025-08-08 21:57:39,461 DEBUG cd /home/jumes/bench-0/apps/frappe && git gc --prune=all
+2025-08-08 21:57:49,838 DEBUG cd /home/jumes/bench-0/apps/frappe && find . -name "*.pyc" -delete
+2025-08-08 21:57:50,418 LOG pulling builder
+2025-08-08 21:57:50,419 DEBUG cd /home/jumes/bench-0/apps/builder && git fetch --depth=1 --no-tags upstream develop
+2025-08-08 21:57:51,710 DEBUG cd /home/jumes/bench-0/apps/builder && git reset --hard upstream/develop
+2025-08-08 21:57:51,727 DEBUG cd /home/jumes/bench-0/apps/builder && git reflog expire --all
+2025-08-08 21:57:51,735 DEBUG cd /home/jumes/bench-0/apps/builder && git gc --prune=all
+2025-08-08 21:57:52,093 DEBUG cd /home/jumes/bench-0/apps/builder && find . -name "*.pyc" -delete
+2025-08-08 21:57:52,725 LOG pulling erpnext
+2025-08-08 21:57:52,725 DEBUG cd /home/jumes/bench-0/apps/erpnext && git fetch --depth=1 --no-tags upstream develop
+2025-08-08 21:57:57,213 DEBUG cd /home/jumes/bench-0/apps/erpnext && git reset --hard upstream/develop
+2025-08-08 21:57:57,467 DEBUG cd /home/jumes/bench-0/apps/erpnext && git reflog expire --all
+2025-08-08 21:57:57,474 DEBUG cd /home/jumes/bench-0/apps/erpnext && git gc --prune=all
+2025-08-08 21:57:57,664 DEBUG cd /home/jumes/bench-0/apps/erpnext && find . -name "*.pyc" -delete
+2025-08-08 21:57:57,747 LOG pulling vue_todo
+2025-08-08 21:57:57,748 DEBUG cd /home/jumes/bench-0/apps/vue_todo && git fetch --depth=1 --no-tags origin develop
+2025-08-08 21:57:59,018 DEBUG cd /home/jumes/bench-0/apps/vue_todo && git reset --hard origin/develop
+2025-08-08 21:57:59,030 DEBUG cd /home/jumes/bench-0/apps/vue_todo && git reflog expire --all
+2025-08-08 21:57:59,052 DEBUG cd /home/jumes/bench-0/apps/vue_todo && git gc --prune=all
+2025-08-08 21:57:59,197 DEBUG cd /home/jumes/bench-0/apps/vue_todo && find . -name "*.pyc" -delete
+2025-08-08 21:57:59,840 LOG pulling doppio
+2025-08-08 21:57:59,841 DEBUG cd /home/jumes/bench-0/apps/doppio && git fetch --depth=1 --no-tags upstream master
+2025-08-08 21:58:01,039 DEBUG cd /home/jumes/bench-0/apps/doppio && git reset --hard upstream/master
+2025-08-08 21:58:01,045 DEBUG cd /home/jumes/bench-0/apps/doppio && git reflog expire --all
+2025-08-08 21:58:01,052 DEBUG cd /home/jumes/bench-0/apps/doppio && git gc --prune=all
+2025-08-08 21:58:01,089 DEBUG cd /home/jumes/bench-0/apps/doppio && find . -name "*.pyc" -delete
+2025-08-08 21:58:01,140 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade pip
+2025-08-08 21:58:02,528 LOG Installing frappe
+2025-08-08 21:58:02,539 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/frappe 
+2025-08-08 21:58:13,024 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=18.10.1 pyngrok~=6.0.0 unittest-xml-reporting~=3.2.0 watchdog~=3.0.0 hypothesis~=6.77.0 responses==0.23.1 freezegun~=1.2.2 
+2025-08-08 22:00:13,447 DEBUG cd /home/jumes/bench-0/apps/frappe && yarn install --check-files
+2025-08-08 22:00:17,404 LOG Installing hsd_seo
+2025-08-08 22:00:17,405 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/hsd_seo 
+2025-08-08 22:00:19,171 LOG Installing ecom
+2025-08-08 22:00:19,171 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/ecom 
+2025-08-08 22:00:20,771 LOG Installing builder
+2025-08-08 22:00:20,771 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/builder 
+2025-08-08 22:39:45,673 DEBUG cd /home/jumes/bench-0/apps/builder && yarn install --check-files
+2025-08-08 22:40:55,164 LOG Installing erpnext
+2025-08-08 22:40:55,165 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/erpnext 
+2025-08-08 22:40:58,309 DEBUG cd /home/jumes/bench-0/apps/erpnext && yarn install --check-files
+2025-08-08 22:40:58,853 LOG Installing hsd_crm
+2025-08-08 22:40:58,853 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/hsd_crm 
+2025-08-08 22:41:01,208 LOG Installing star_ecom
+2025-08-08 22:41:01,209 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/star_ecom 
+2025-08-08 22:41:03,629 LOG Installing hsd_ecom
+2025-08-08 22:41:03,629 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/hsd_ecom 
+2025-08-08 22:41:05,912 LOG Installing vue_todo
+2025-08-08 22:41:05,912 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/vue_todo 
+2025-08-08 22:41:08,226 DEBUG cd /home/jumes/bench-0/apps/vue_todo && yarn install --check-files
+2025-08-08 22:41:14,732 LOG Installing doppio
+2025-08-08 22:41:14,732 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/doppio 
+2025-08-08 22:41:19,117 DEBUG cd /home/jumes/bench-0/apps/doppio && yarn install --check-files
+2025-08-08 22:41:19,711 LOG Installing library_management
+2025-08-08 22:41:19,712 DEBUG cd /home/jumes/bench-0 && /home/jumes/bench-0/env/bin/python -m pip install --quiet --upgrade -e /home/jumes/bench-0/apps/library_management 
+2025-08-08 22:41:23,708 WARNING /home/jumes/.local/bin/bench update --reset executed with exit code 1
+2025-08-08 22:41:24,309 INFO A newer version of bench is available: 5.25.7 → 5.25.9
+2025-08-08 22:42:55,254 INFO /home/jumes/.local/bin/bench start
+2025-08-08 22:42:55,623 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 22:42:55,681 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 22:42:55,701 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 22:42:55,703 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 22:46:00,497 INFO /home/jumes/.local/bin/bench start
+2025-08-08 22:46:00,826 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 22:46:00,834 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 22:46:00,866 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 22:46:00,866 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 22:48:46,023 INFO /home/jumes/.local/bin/bench clear-cache
+2025-08-08 22:48:54,644 INFO /home/jumes/.local/bin/bench clear-website-cache
+2025-08-08 22:49:02,286 INFO /home/jumes/.local/bin/bench clear-website-cache --help
+2025-08-08 22:49:25,906 INFO /home/jumes/.local/bin/bench --site ecom.localhost clear-website-cache
+2025-08-08 22:49:35,433 INFO /home/jumes/.local/bin/bench --site ecom.localhost clear-cache
+2025-08-08 22:49:39,745 INFO /home/jumes/.local/bin/bench start
+2025-08-08 22:49:40,137 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 22:49:40,138 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 22:49:40,142 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 22:49:40,207 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 22:52:23,496 INFO /home/jumes/.local/bin/bench new-site test.localhost
+2025-08-08 22:53:09,777 INFO /home/jumes/.local/bin/bench start
+2025-08-08 22:53:10,149 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 22:53:10,176 INFO /home/jumes/.local/bin/bench watch
+2025-08-08 22:53:10,183 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 22:53:10,188 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 22:53:46,684 INFO /home/jumes/.local/bin/bench --site test.localhost install-app frappe
+2025-08-08 22:53:57,568 INFO /home/jumes/.local/bin/bench --site test.localhost install-app add-to-hosts
+2025-08-08 22:54:11,215 INFO /home/jumes/.local/bin/bench --site test.localhost add-to-hosts
+2025-08-08 22:54:23,825 INFO /home/jumes/.local/bin/bench start
+2025-08-08 22:54:24,124 INFO /home/jumes/.local/bin/bench worker
+2025-08-08 22:54:24,129 INFO /home/jumes/.local/bin/bench schedule
+2025-08-08 22:54:24,156 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-08 22:54:24,158 INFO /home/jumes/.local/bin/bench watch
+2025-08-09 00:00:02,136 INFO /home/jumes/.local/bin/bench --verbose --site all backup
+2025-08-09 01:32:15,646 INFO /home/jumes/.local/bin/bench start
+2025-08-09 01:36:05,626 INFO /home/jumes/.local/bin/bench start
+2025-08-09 01:52:11,559 INFO /home/jumes/.local/bin/bench start
+2025-08-09 01:52:12,283 INFO /home/jumes/.local/bin/bench worker
+2025-08-09 01:52:12,362 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-09 01:52:12,372 INFO /home/jumes/.local/bin/bench watch
+2025-08-09 01:52:12,375 INFO /home/jumes/.local/bin/bench schedule
+2025-08-09 01:56:52,721 INFO /home/jumes/.local/bin/bench build --app frappe
+2025-08-09 01:57:21,526 INFO /home/jumes/.local/bin/bench start
+2025-08-09 01:57:21,855 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-09 01:57:21,889 INFO /home/jumes/.local/bin/bench watch
+2025-08-09 01:57:21,889 INFO /home/jumes/.local/bin/bench schedule
+2025-08-09 01:57:22,093 INFO /home/jumes/.local/bin/bench worker
+2025-08-10 03:11:41,452 INFO /home/jumes/.local/bin/bench start
+2025-08-10 03:11:41,739 INFO /home/jumes/.local/bin/bench watch
+2025-08-10 03:11:41,755 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-10 03:11:41,759 INFO /home/jumes/.local/bin/bench schedule
+2025-08-10 03:11:41,761 INFO /home/jumes/.local/bin/bench worker
+2025-08-10 03:27:54,891 INFO /home/jumes/.local/bin/bench start
+2025-08-10 03:27:55,126 INFO /home/jumes/.local/bin/bench watch
+2025-08-10 03:27:55,164 INFO /home/jumes/.local/bin/bench worker
+2025-08-10 03:27:55,171 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-10 03:27:55,182 INFO /home/jumes/.local/bin/bench schedule

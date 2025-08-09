@@ -97,5 +97,15 @@
         "required": [],
         "idx": 10,
         "version": "0.0.1"
+    },
+    "star_ecom": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "32189ca0188f66c7e0d3fccbc727b9441052618d",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 11,
+        "version": "0.0.1"
     }
 }

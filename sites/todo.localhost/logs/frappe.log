@@ -64,3 +64,9 @@ Form Dict: {'limit_page_length': 20}
 2025-07-31 03:59:21,418 ERROR frappe New Exception collected in error log
 Site: todo.localhost
 Form Dict: {'doc': {'doctype': 'ToDo', 'description': ''}, 'cmd': 'frappe.client.insert'}
+2025-08-08 04:18:30,881 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {}
+2025-08-08 04:20:10,556 ERROR frappe New Exception collected in error log
+Site: todo.localhost
+Form Dict: {}

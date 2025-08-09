@@ -1,3 +1,27 @@
 2025-07-18 07:45:17,171 ERROR frappe New Exception collected in error log
 Site: jumes.localhost
 Form Dict: {'limit_page_length': 20}
+2025-08-08 22:43:58,491 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}
+2025-08-08 22:43:58,719 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}
+2025-08-08 22:44:38,817 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}
+2025-08-08 22:44:39,022 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}
+2025-08-08 22:45:36,725 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}
+2025-08-08 22:45:36,840 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}
+2025-08-08 22:46:13,455 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}
+2025-08-08 22:46:13,562 ERROR frappe New Exception collected in error log
+Site: jumes.localhost
+Form Dict: {}

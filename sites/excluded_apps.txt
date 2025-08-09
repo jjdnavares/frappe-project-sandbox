@@ -1,0 +1,6 @@
+hsd_seo
+ecom
+hsd_crm
+star_ecom
+hsd_ecom
+library_management

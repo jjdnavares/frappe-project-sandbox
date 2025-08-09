@@ -4,6 +4,7 @@ ecom
 builder
 erpnext
 hsd_crm
+star_ecom
 hsd_ecom
 vue_todo
 doppio
