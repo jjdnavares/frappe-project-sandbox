@@ -844,3 +844,19 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2025-08-10 03:27:55,164 INFO /home/jumes/.local/bin/bench worker
 2025-08-10 03:27:55,171 INFO /home/jumes/.local/bin/bench serve --port 8000
 2025-08-10 03:27:55,182 INFO /home/jumes/.local/bin/bench schedule
+2025-08-10 03:32:34,113 INFO /home/jumes/.local/bin/bench add-frappe-ui --name store --app star_ecom
+2025-08-10 21:58:12,118 INFO /home/jumes/.local/bin/bench start
+2025-08-10 21:58:12,377 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-10 21:58:12,390 INFO /home/jumes/.local/bin/bench watch
+2025-08-10 21:58:12,405 INFO /home/jumes/.local/bin/bench worker
+2025-08-10 21:58:12,422 INFO /home/jumes/.local/bin/bench schedule
+2025-08-11 00:57:49,737 INFO /home/jumes/.local/bin/bench start
+2025-08-11 00:57:50,710 INFO /home/jumes/.local/bin/bench worker
+2025-08-11 00:57:50,799 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-11 00:57:50,859 INFO /home/jumes/.local/bin/bench watch
+2025-08-11 00:57:51,057 INFO /home/jumes/.local/bin/bench schedule
+2025-08-11 01:34:50,436 INFO /home/jumes/.local/bin/bench start
+2025-08-11 01:34:50,688 INFO /home/jumes/.local/bin/bench worker
+2025-08-11 01:34:50,691 INFO /home/jumes/.local/bin/bench serve --port 8000
+2025-08-11 01:34:50,704 INFO /home/jumes/.local/bin/bench schedule
+2025-08-11 01:34:50,716 INFO /home/jumes/.local/bin/bench watch

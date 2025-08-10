@@ -3,3 +3,17 @@
 2025-07-30 06:56:00,752 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for todo.localhost
 2025-07-30 06:56:00,753 ERROR scheduler Skipped queueing frappe.email.queue.flush because it was found in queue for todo.localhost
 2025-07-30 06:56:00,754 ERROR scheduler Skipped queueing frappe.email.doctype.notification.notification.trigger_offset_alerts because it was found in queue for todo.localhost
+2025-08-11 00:24:00,778 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for todo.localhost
+2025-08-11 00:24:00,780 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record because it was found in queue for todo.localhost
+2025-08-11 00:24:00,781 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for todo.localhost
+2025-08-11 00:24:00,782 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for todo.localhost
+2025-08-11 00:24:00,782 ERROR scheduler Skipped queueing frappe.desk.notifications.clear_notifications because it was found in queue for todo.localhost
+2025-08-11 00:24:00,784 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for todo.localhost
+2025-08-11 00:24:00,785 ERROR scheduler Skipped queueing frappe.sessions.clear_expired_sessions because it was found in queue for todo.localhost
+2025-08-11 00:24:00,788 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for todo.localhost
+2025-08-11 00:24:00,790 ERROR scheduler Skipped queueing frappe.core.doctype.log_settings.log_settings.run_log_clean_up because it was found in queue for todo.localhost
+2025-08-11 00:24:00,791 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for todo.localhost
+2025-08-11 00:24:00,792 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for todo.localhost
+2025-08-11 00:24:00,793 ERROR scheduler Skipped queueing frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry because it was found in queue for todo.localhost
+2025-08-11 00:24:00,796 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for todo.localhost
+2025-08-11 00:24:00,798 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for todo.localhost

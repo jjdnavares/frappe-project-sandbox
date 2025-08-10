@@ -3,3 +3,17 @@
 2025-07-30 06:56:00,760 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for library.localhost
 2025-07-30 06:56:00,761 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for library.localhost
 2025-07-30 06:56:00,762 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for library.localhost
+2025-08-11 00:24:00,667 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for library.localhost
+2025-08-11 00:24:00,670 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for library.localhost
+2025-08-11 00:24:00,670 ERROR scheduler Skipped queueing frappe.desk.notifications.clear_notifications because it was found in queue for library.localhost
+2025-08-11 00:24:00,671 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for library.localhost
+2025-08-11 00:24:00,671 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record because it was found in queue for library.localhost
+2025-08-11 00:24:00,672 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for library.localhost
+2025-08-11 00:24:00,674 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for library.localhost
+2025-08-11 00:24:00,676 ERROR scheduler Skipped queueing frappe.sessions.clear_expired_sessions because it was found in queue for library.localhost
+2025-08-11 00:24:00,678 ERROR scheduler Skipped queueing frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry because it was found in queue for library.localhost
+2025-08-11 00:24:00,678 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for library.localhost
+2025-08-11 00:24:00,679 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for library.localhost
+2025-08-11 00:24:00,680 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for library.localhost
+2025-08-11 00:24:00,681 ERROR scheduler Skipped queueing frappe.core.doctype.log_settings.log_settings.run_log_clean_up because it was found in queue for library.localhost
+2025-08-11 00:24:00,681 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for library.localhost

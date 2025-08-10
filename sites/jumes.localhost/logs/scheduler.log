@@ -14,3 +14,17 @@
 2025-07-30 06:56:00,727 ERROR scheduler Skipped queueing frappe.monitor.flush because it was found in queue for jumes.localhost
 2025-07-30 06:56:00,728 ERROR scheduler Skipped queueing frappe.integrations.doctype.google_calendar.google_calendar.sync because it was found in queue for jumes.localhost
 2025-07-30 06:56:00,729 ERROR scheduler Skipped queueing frappe.email.doctype.email_account.email_account.pull because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,701 ERROR scheduler Skipped queueing frappe.twofactor.delete_all_barcodes_for_users because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,704 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,705 ERROR scheduler Skipped queueing frappe.desk.page.backups.backups.delete_downloadable_backups because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,705 ERROR scheduler Skipped queueing frappe.core.doctype.log_settings.log_settings.run_log_clean_up because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,713 ERROR scheduler Skipped queueing frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,714 ERROR scheduler Skipped queueing frappe.sessions.clear_expired_sessions because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,714 ERROR scheduler Skipped queueing frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,715 ERROR scheduler Skipped queueing frappe.model.utils.user_settings.sync_user_settings because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,715 ERROR scheduler Skipped queueing frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,716 ERROR scheduler Skipped queueing frappe.desk.form.document_follow.send_hourly_updates because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,717 ERROR scheduler Skipped queueing frappe.desk.notifications.clear_notifications because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,717 ERROR scheduler Skipped queueing frappe.website.doctype.web_page.web_page.check_publish_status because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,718 ERROR scheduler Skipped queueing frappe.email.doctype.auto_email_report.auto_email_report.send_daily because it was found in queue for jumes.localhost
+2025-08-11 00:24:00,720 ERROR scheduler Skipped queueing frappe.oauth.delete_oauth2_data because it was found in queue for jumes.localhost
